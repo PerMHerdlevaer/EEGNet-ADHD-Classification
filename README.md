@@ -15,7 +15,9 @@ https://ieee-dataport.org/open-access/eeg-data-adhd-control-children
 
 
 EEGNet.py                     # EEGNet model implementation
+
 functions.py                  # Helper functions
+
 Run_EEGNet.py                 # Main training and evaluation script
 
 
