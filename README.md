@@ -8,6 +8,9 @@ This repository contains the code developed for my master's thesis:
 
 The project investigates how preprocessing choices and frequency-specific EEG information influence deep learning models for ADHD classification. An EEGNet-based convolutional neural network is evaluated using strict Leave-One-Subject-Out (LOSO) cross-validation on a public EEG dataset of 121 children. The code is designed to be easy to understand and adapt to other EEG datasets.
 
+The dataset used is from the public dataset:
+https://www.kaggle.com/datasets/danizo/eeg-dataset-for-adhd
+
 ## Repository Structure
 
 
