@@ -144,7 +144,7 @@ subject_float_predictions = {
 # Gamma > 30 Hz
 
 runs = [[0.5,40,"Full_Bandpass_0.5-40Hz"],]
-""""     
+
         [0.5,8,"Delta_Theta_0.5-8Hz"],
         
         [8,12,"Alpha_8-12Hz"],
@@ -156,10 +156,9 @@ runs = [[0.5,40,"Full_Bandpass_0.5-40Hz"],]
         [20,40,"Gamma+High_beta20-40Hz"],
         [30,40,"Gamma30-40Hz"],]
 
-"""
 
-seeds = [41,42,43]
-seeds = [1]
+seeds = [1,2]
+
 
 
 
@@ -258,8 +257,6 @@ def main():
             # --------------------------------------------
 
             for _, test_sid in enumerate(subjects):
-                print(test_sid)
-
 
                 # ------------------------------------------------------------
                 # 2.1) Split subjects: 1 test, rest train+val
