@@ -27,9 +27,3 @@ create_fif.ipynb              # Script to transform the dataset from csv to fif.
 * EEGNet is trained using subject-level LOSO cross-validation.
 * Multiple frequency-specific models are evaluated and compared.
 
-## How To Run
-
-* Download the csv from the 
-
-
-
