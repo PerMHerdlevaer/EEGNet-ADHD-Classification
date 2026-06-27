@@ -13,13 +13,12 @@ https://ieee-dataport.org/open-access/eeg-data-adhd-control-children
 
 ## Repository Structure
 
-
+```text
 EEGNet.py                     # EEGNet model implementation
-
 functions.py                  # Helper functions
-
 Run_EEGNet.py                 # Main training and evaluation script
-
+create_fif.ipynb              # Script to transform the dataset from csv to fif. Can be used if the dataset is downloaded from Kaggle as a csv.
+```
 
 ## Method
 
@@ -28,15 +27,9 @@ Run_EEGNet.py                 # Main training and evaluation script
 * EEGNet is trained using subject-level LOSO cross-validation.
 * Multiple frequency-specific models are evaluated and compared.
 
-## Frequency Bands
+## How To Run
 
-* Full Band (0.5–40 Hz)
-* Delta + Theta (0.5–8 Hz)
-* Alpha (8–12 Hz)
-* Alpha + Low Beta (8–20 Hz)
-* Beta (12–30 Hz)
-* Beta + Gamma (12–40 Hz)
-* High Beta + Gamma (20–40 Hz)
-* Gamma (30–40 Hz)
+* Download the csv from the 
+
 
 
